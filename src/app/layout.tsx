@@ -19,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={courierprime.className}>
-        <audio id="backgroundMusic" src='/audio/background.mp3' loop />
-        <audio id="leftArrowSound" src="/audio/leftarrow.mp3"/>
-        <audio id="rightArrowSound" src="/audio/rightarrow.mp3"/>
-        <audio id="blackHoleSound" src="/audio/blackhole.mp3"/>
+        <audio id="backgroundMusic" src='/audio/background.mp3' preload='auto' loop />
+        <audio id="leftArrowSound" src="/audio/leftarrow.mp3" preload='auto'/>
+        <audio id="rightArrowSound" src="/audio/rightarrow.mp3" preload='auto'/>
+        <audio id="blackHoleSound" src="/audio/blackhole.mp3" preload='auto'/>
         {children}
       </body>
     </html>
