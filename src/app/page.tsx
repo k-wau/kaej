@@ -72,7 +72,7 @@ export default function Home() {
     blackHole?.addEventListener("mouseleave", handleMouseLeaveBlackHole)
 
     titleCard?.addEventListener("click", toggleMusic)
-  }, [])
+  }, [bgMusicPlaying, setBgMusicPlaying, isHovered, setIsHovered])
   
   // useEffect(() => {
   //   const backgroundMusic = document.getElementById("backgroundMusic") as HTMLAudioElement
@@ -123,7 +123,7 @@ export default function Home() {
         ... / - / .-. / . / .- / -- / -.- / .-- / .- / ..-
       </div>
       <div className='flex justify-center pb-5 text-lg'>
-        sound on :smile: (if sounds aren't playing just click anywhere and it'll work)
+        sound on :smile: (if sounds arent playing just click anywhere and itll work)
       </div>
     </div>
   )
