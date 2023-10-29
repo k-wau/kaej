@@ -25,3 +25,27 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.enlargify-left {
+  transition: 0.1s ease-in-out;
+  transform-origin: left;
+}
+.enlargify-left:hover {
+  transform: scale(1.1);
+}
+
+.enlargify-center {
+  transition: 0.1s ease-in-out;
+  transform-origin: center;
+}
+.enlargify-center:hover {
+  transform: scale(1.1);
+}
+
+.enlargify-right {
+  transition: 0.1s ease-in-out;
+  transform-origin: right;
+}
+.enlargify-right:hover {
+  transform: scale(1.1);
+}
