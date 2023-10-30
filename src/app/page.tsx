@@ -82,7 +82,7 @@ export default function Home() {
   // }, [])
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen bg-black">
       <div className='flex justify-center py-5'>
         <Image id='titleCard' 
           src={kaejText} 
