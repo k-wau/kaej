@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-
 import Image from 'next/image'
 import kaejText from '/src/components/kaej.png'
 import pixelblackhole from '/src/components/pixelblackhole.png'
