@@ -73,13 +73,6 @@ export default function Home() {
 
     titleCard?.addEventListener("click", toggleMusic)
   }, [bgMusicPlaying, setBgMusicPlaying, isHovered, setIsHovered])
-  
-  // useEffect(() => {
-  //   const backgroundMusic = document.getElementById("backgroundMusic") as HTMLAudioElement
-  //   if (backgroundMusic) {
-  //     backgroundMusic.play()
-  //   }
-  // }, [])
 
   return (
     <div className="flex flex-col h-screen bg-black">
